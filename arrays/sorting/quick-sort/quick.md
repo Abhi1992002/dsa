@@ -2,8 +2,6 @@ Here’s the content in markdown format:
 
 # Quick Sort
 
-**Last Updated** : 01 Sep, 2024
-
 QuickSort is a sorting algorithm based on the Divide and Conquer principle. It picks an element as a pivot and partitions the given array around the picked pivot by placing the pivot in its correct position in the sorted array.
 
 ## How does QuickSort Algorithm work?
@@ -16,15 +14,15 @@ There are mainly three steps in the algorithm:
 3. check if our pivot value is greater than or smaller to pivot,
    - if greater, then increment j, and leave i as it is.
    - if smaller, then increment i and swap the values of i and j using temp variable.
-   ![initials-2](public/quick-sort/9.png)
+   ![initials-2](/public/quick-sort/9.png)
 4. Repeat the steps until j reached the pivot point.
 
   This is how our array will going to look like after 1 partition.
   - all the elements less than the pivot will be on the left side and all the elements greater than the pivot will be on the right side.
-  - ![initials-3](public/quick-sort/10.png)
+  - ![initials-3](/public/quick-sort/10.png)
 
 5. Now we will do the same for the left and right side of the pivot.
-  - ![initials-4](public/quick-sort/11.png)
+  - ![initials-4](/public/quick-sort/11.png)
 
 
 ## Choice of Pivot:
