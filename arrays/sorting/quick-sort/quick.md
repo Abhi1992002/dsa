@@ -40,4 +40,4 @@ The key process in QuickSort is `partition()`. There are three common algorithms
 
 Let me know if you'd like to add or adjust anything!
 
-![Quick sort](public/QuickSort2.png)
+![Quick sort](/public/QuickSort2.png)
