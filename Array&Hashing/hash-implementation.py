@@ -42,7 +42,7 @@ class HashMap:
         while self.map[index] != None:
             if self.map[index].key == key:
                 return self.map[index].val
-
+ 
             # circular transveral
             index += 1
             index = index % self.capacity
