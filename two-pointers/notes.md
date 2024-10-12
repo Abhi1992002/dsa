@@ -41,6 +41,7 @@ Example 2: Target Sum in a Sorted Array
     •	If the sum is smaller than the target, increment L to increase the sum.
     •	If the sum matches the target, return the indices [L, R].
 
+```python
 def targetSum(nums, target):
 L, R = 0, len(nums) - 1
 while L < R:
@@ -50,7 +51,7 @@ elif nums[L] + nums[R] < target:
 L += 1
 else:
 return [L, R]
-
+```
     •	Time Complexity: O(n), where n is the length of the input array. Each element is visited once.
 
 Summary:
